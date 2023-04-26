@@ -11,4 +11,5 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
 ## Exercise 1 : View the PowerBI report Dashboard
 
-1. 
+1. In the Desktop click on the **Power BI Desktop** icon.
+    ![Risk Classification](../images/1.png)
