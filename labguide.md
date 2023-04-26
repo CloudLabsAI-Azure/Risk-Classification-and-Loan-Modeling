@@ -48,6 +48,7 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
     ![Risk Classification](./images/9.png)
 
 10. Type **sbadataDID(1)** and click **Ok(2)**.
+
      **Note**: Replace **DID** by the **Deployment ID** provided in the environment details
 
      ![Risk Classification](./images/10.png)
