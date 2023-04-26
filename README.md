@@ -1,6 +1,6 @@
 # Risk-Classification-and-Loan-Modeling
 
-![MSUS Solution Accelerator](./images/MSUS%20Solution%20Accelerator%20Banner%20Two_981.png)
+![MSUS Solution Accelerator](https://github.com/MSUSAzureAccelerators/Risk-Classification-and-Loan-Modeling-Accelerator/blob/main/images/MSUS%20Solution%20Accelerator%20Banner%20Two_981.png)
 
 # Risk Classification and Loan Modeling
 
