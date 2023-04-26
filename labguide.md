@@ -47,21 +47,22 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
     ![Risk Classification](./images/9.png)
 
-10. Type **sbadataDID(1)** and click **Ok(2)** 
-   **Note**: Replace **DID** by the **Deployment ID** provided in the environment details
+10. Type **sbadataDID(1)** and click **Ok(2)**.
+     **Note**: Replace **DID** by the **Deployment ID** provided in the environment details
 
      ![Risk Classification](./images/10.png)
 
-   **Note**: If the Account key is popup for the Authentication go to the Azure portal to the **sbadataDID** storage account and in the **Access keys** section select **key1**.
-
-    ![Risk Classification](./images/11.png)
+     **Note**: If the Account key is popup for the Authentication go to the Azure portal to the **sbadataDID** storage account and in the **Access keys** section select **key1**.
+     
+     ![Risk Classification](./images/11.png)
 
 11. click **Close**.
 
     ![Risk Classification](./images/12.png)
     
 12. Click on **Apply Changes** wait untill the load is **complete** and click on close.
-     **Note**: Ignore if there is any errors
+
+      **Note**: Ignore if there is any errors
 
      ![Risk Classification](./images/13.png)
     
