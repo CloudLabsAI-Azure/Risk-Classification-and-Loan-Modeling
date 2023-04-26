@@ -13,3 +13,11 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
 1. In the Desktop click on the **Power BI Desktop** icon.
     ![Risk Classification](./images/1.png)
+2. Click on the **X** symbol to close Get Started page.
+    ![Risk Classification](./images/2.png)
+3. Click on the File option.
+    ![Risk Classification](./images/3.png)
+4. In the **Open reports(1)** section click on the **Browse report(2)**.
+    ![Risk Classification](./images/4.png)
+5. Move to the location **C:\LabFiles(2)** , select the **RCLM-file(3)** and click **Open(4)**.
+    ![Risk Classification](./images/5.png)
