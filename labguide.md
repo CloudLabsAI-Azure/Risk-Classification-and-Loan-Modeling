@@ -16,6 +16,7 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
     ![Risk Classification](./images/1.png)  
     
 2. Click on the **X** symbol to close Get Started page.
+
     ![Risk Classification](./images/2.png)  
     
 3. Click on the File option.
@@ -23,8 +24,47 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
     ![Risk Classification](./images/3.png)
     
 4. In the **Open reports(1)** section click on the **Browse report(2)**.
+
     ![Risk Classification](./images/4.png)  
     
 5. Move to the location **C:\LabFiles(2)** , select the **RCLM-file(3)** and click **Open(4)**.
+
     ![Risk Classification](./images/5.png)
+ 
+ 6. On **RCLM_file** tab click on **Load**.
+
+    ![Risk Classification](./images/6.png)
     
+7. On **Refresh** Page click on **Close**.
+  
+    ![Risk Classification](./images/7.png)
+    
+8. Click on **Down Arrow in the Transform Data(1)** and select **Data Source Setting(2)**
+
+    ![Risk Classification](./images/8.png)
+    
+9. Click on **Change Source** on Data Source Setting page.
+
+    ![Risk Classification](./images/9.png)
+
+10. Type **sbadataDID(1)** and click **Ok(2)** 
+   **Note**: Replace **DID** by the **Deployment ID** provided in the environment details
+
+     ![Risk Classification](./images/10.png)
+
+   **Note**: If the Account key is popup for the Authentication go to the Azure portal to the **sbadataDID** storage account and in the **Access keys** section select **key1**.
+
+    ![Risk Classification](./images/11.png)
+
+11. click **Close**.
+
+    ![Risk Classification](./images/12.png)
+    
+12. Click on **Apply Changes** wait untill the load is **complete** and click on close.
+     **Note**: Ignore if there is any errors
+
+     ![Risk Classification](./images/13.png)
+    
+13. Review the Dashboard.
+
+     ![Risk Classification](./images/14.png)
