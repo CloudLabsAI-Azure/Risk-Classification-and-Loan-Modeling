@@ -70,3 +70,25 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 13. Review the Dashboard.
 
      ![Risk Classification](./images/14.png)
+
+
+## Exercise 2 : Running the machine learning pipelines
+
+1. Go to the Azure Portal and search for the **Azure Machine Learning** and select it.
+ 
+    ![Risk Classification](./images/15.png)
+
+2. Select the **loanmodelDID** in the under Azure Machine Learning.
+
+    ![Risk Classification](./images/17.png)
+
+3. Click on the **Launch Studio**
+
+     ![Risk Classification](./images/18.png)
+
+4. In the Azure Machine Learning Studio, click on the **Designer(1)** and Click on **Create the pipline using classic pre-built modules(2)**.
+
+     ![Risk Classification](./images/19.png)
+
+
+    
