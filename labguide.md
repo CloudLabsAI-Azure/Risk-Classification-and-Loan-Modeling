@@ -90,5 +90,75 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
      ![Risk Classification](./images/19.png)
 
-
+5. In the designer page click on the **settings**.
     
+    ![Risk Classification](./images/20.png)
+
+6. For **Select Compute type**: **Container Instance(1)**, for **Select Azure ML compute instance** : **loanmodel(2)** and click on **Save(3)**.
+
+    ![Risk Classification](./images/21.png)
+    
+7. Under the **Data** Section Drag and Drop **SBADATA** to the worspace.
+
+    ![Risk Classification](./images/22.png)
+
+8. Under the **Component** Section Search for **Select Columns in Dataset** and Drag and Drop at Workspace region.
+
+    ![Risk Classification](./images/23.png)
+
+9. Connect **SBADATA(1)** output to input of **Select Columns in Dataset(2)**.
+
+    ![Risk Classification](./images/24.png)
+
+10. Double click on the **Select Columns in Dataset** icon then under select columns click on **edit columns**.
+
+     ![Risk Classification](./images/25.png)
+
+11. Enter all the below coloumn names and click on **save**.
+ (City,State,Bank,BankState,Term,NoEmp,NewExist,CreateJob,RetainedJob,FranchiseCode,UrbanRural,RevLineCr,LowDoc,DisbursementGross,GrAppv,SBA_Appv,IndustryCode,Risk)
+
+     ![Risk Classification](./images/26.png)
+
+12. Under the **Component** section search **Clean Missing Data** and Drag and Drop at the workspace region.
+
+     ![Risk Classification](./images/27.png)
+
+13. Connect **select Columns in Dataset(1)** output to input of **Clean Missing Data(2)**.
+
+     ![Risk Classification](./images/28.png)
+
+14. Double click on the **Clean Missing Data** icon then under select columns click on **edit columns**.
+
+     ![Risk Classification](./images/29.png)
+
+15. Under **cloumns to be cleaned** page for **Include** selct **All Columns**.
+
+     ![Risk Classification](./images/30.png)
+
+16. Click on **Save**.
+
+     ![Risk Classification](./images/31.png)
+
+17. Select the **Remove entire row** for **Cleaning mode**.
+
+     ![Risk Classification](./images/32.png)
+
+18. Under the **Component** section search **Split Data** and Drag and Drop at the workspace region.
+
+     ![Risk Classification](./images/33.png)
+
+19. Connect **Clean Missing Data(1)** left output to input of **Split Data(2)**.
+
+     ![Risk Classification](./images/34.png)
+
+20. Double click on the **Split Data** icon for **Fraction of rows in the first output dataset** change the value to **0.7**.
+
+     ![Risk Classification](./images/35.png)
+
+21. Under the **Component** section search **Multiclass logistic Regression** and Drag and Drop at the workspace region.
+
+     ![Risk Classification](./images/36.png)
+
+
+
+     
