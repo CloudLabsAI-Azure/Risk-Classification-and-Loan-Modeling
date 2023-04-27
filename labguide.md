@@ -159,6 +159,47 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
      ![Risk Classification](./images/36.png)
 
+22. Under the **Component** section search **Train Model** and Drag and Drop at the workspace region.
 
+     ![Risk Classification](./images/37.png)
 
-     
+23. Connect output of the **Multiclass logistic Regression(1)** to the left input of **Train Model(2)** and left output of the **Split Data(3)** to **Train Model(4)**
+
+     ![Risk Classification](./images/38.png)
+
+24. Double click on the **Train Model** icon then under Label columns click on **edit column**
+
+     ![Risk Classification](./images/39.png)
+
+25. Under the **Label Column** select **column names** and type **Risk** and click on **Save**.
+
+     ![Risk Classification](./images/40.png)
+
+26. Under the **Component** section search **Score Model** and Drag and Drop at the workspace region.
+
+     ![Risk Classification](./images/41.png)
+
+27. Connect output of the **Train Model(1)** to the left input of **Score Model(2)** and Right output of the **Split Data(3)** to **score Model(4)**
+
+     ![Risk Classification](./images/42.png)
+
+28. Under the **Component** section search **Evaluate Model** and Drag and Drop at the workspace region.
+
+     ![Risk Classification](./images/43.png)
+
+29. Connect **Score Model(1)** left output to input of **Evaluate Model(2)**.
+
+     ![Risk Classification](./images/44.png)
+
+30. Click on **Submit**.
+
+     ![Risk Classification](./images/45.png)
+
+31. On **Setup Pipeline job** page select **Create new**, **New Experiment Name** : **SBA_Loan_Risk_Prediction** and click on **Submit**.
+
+      ![Risk Classification](./images/46.png)
+
+32. Wait untill the Pipline run is completed.
+
+     ![Risk Classification](./images/47.png)
+
