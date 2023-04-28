@@ -260,3 +260,11 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
      ![Risk Classification](./images/59.png)
 
+12. Right click on the **evaluate model**, click on the **preview data** and click on **Evaluate Results**.
+
+     ![Risk Classification](./images/48.png)
+
+13. Verify the evaluation results.
+
+     ![Risk Classification](./images/60.png)
+
