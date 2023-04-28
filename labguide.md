@@ -74,6 +74,8 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
 ## Exercise 2 : Running the machine learning pipelines
 
+### Task 1: Predict Loan Risk via Classification Model
+
 1. Go to the Azure Portal and search for the **Azure Machine Learning** and select it.
  
     ![Risk Classification](./images/15.png)
@@ -202,4 +204,59 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 32. Wait untill the Pipline run is completed.
 
      ![Risk Classification](./images/47.png)
+
+33. Right click on the **evaluate model**, click on the **preview data** and click on **Evaluate Results**.
+
+     ![Risk Classification](./images/48.png)
+     
+34. Verify the evaluation results.
+
+     ![Risk Classification](./images/49.png)
+
+
+### Task 2: create regression model to predict SBA approval amount
+
+1. Go to the **Jobs** section and click on the latest succeeded run for SBA Loan Prediction.
+
+    ![Risk Classification](./images/50.png)
+
+2. Click on **Clone**.
+
+    ![Risk Classification](./images/51.png)
+
+3. Double click on the **Select Columns in Dataset** icon then under select columns click on **edit columns**.
+
+     ![Risk Classification](./images/52.png)
+
+4. Remove **Risk** and click on **Save**.
+
+    ![Risk Classification](./images/53.png)
+
+5. Right click on the **Multiclass Logistic Regression** and click on **Delete**.
+
+    ![Risk Classification](./images/54.png)
+
+6. Under the **Component** section search **Linear Regression** and Drag and Drop at the workspace region.
+
+    ![Risk Classification](./images/55.png)
+
+7. Connect **Linear Regression(1)** output to input of **Evaluate Model(2)**.
+
+    ![Risk Classification](./images/56.png)
+  
+8. Double click on the **Train Model** icon then under Label columns click on **edit column**.
+
+    ![Risk Classification](./images/57.png)
+
+9. Add **SBA_Appv** and click on **save**.
+
+    ![Risk Classification](./images/58.png)
+
+10. Click on **Submit**.
+
+     ![Risk Classification](./images/45.png)
+
+11. On **Setup Pipeline job** page select **Create new**, **New Experiment Name** : **SBA_Loan_Approve_Amount_Prediction** and click on **Submit**.
+
+     ![Risk Classification](./images/59.png)
 
