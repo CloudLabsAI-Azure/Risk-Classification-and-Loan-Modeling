@@ -240,7 +240,7 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
     ![Risk Classification](./images/55.png)
 
-7. Connect **Linear Regression(1)** output to input of **Evaluate Model(2)**.
+7. Connect **Linear Regression(1)** output to input of **Train Model(2)**.
 
     ![Risk Classification](./images/56.png)
   
