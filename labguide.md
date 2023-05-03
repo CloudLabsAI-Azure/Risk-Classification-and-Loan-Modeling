@@ -268,3 +268,45 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
      ![Risk Classification](./images/60.png)
 
+
+## Exercise 3 : Deploy the Batch Processing ML Model
+
+1. Go to the **LoanmodelDID** synapse workspace in the Azure Portal and click on **open**.
+
+    ![Risk Classification](./images/64.png)
+
+2. In the Synapse workspace, click on **Integrate(1)** from left side pane then click on the **+(2)** and select the **Copy Data tool(3)**.
+
+    ![Risk Classification](./images/65.png)
+
+3. Select **Built-in copy task(1)** and click on **Next(2)**.
+
+    ![Risk Classification](./images/66.png)
+
+4. Select for **Source Type : Azure Blob Storage(1)**, **Connection : link_to_sbadata_storage(2)**, **file or folder : testinput(3)** and click on **Next(4)**.
+
+    ![Risk Classification](./images/67.png)
+
+5.  Click on **Preview data(1)** to visualize the data and check the check box for enabling the **first row has the header(2)** and click on  **Next(3)**.
+
+     ![Risk Classification](./images/68.png)
+     
+6.  Select for **Destination Type : Azure Blob Storage(1)**, **Connection : link_to_sbadata_storage(2)**, **file or folder : testoutput(3)** and click on **Next(4)**.
+
+     ![Risk Classification](./images/69.png)
+
+7. Check the check box for **add header to the file(1)** and click on **Next(2)**.
+
+    ![Risk Classification](./images/70.png)
+
+8. On the setting pane click on **Next**.
+
+    ![Risk Classification](./images/71.png)
+
+9. on the review pane click on **Next**.
+
+    ![Risk Classification](./images/72.png)
+
+10. Once all the validations are succeeded then click on **Finish**.
+
+     ![Risk Classification](./images/73.png)
