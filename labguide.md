@@ -299,9 +299,9 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
     ![Risk Classification](./images/70.png)
 
-8. On the setting pane click on **Next**.
+8. On the setting pane for **Task name : Ingest_test_file(1)** click on **Next(2)**.
 
-    ![Risk Classification](./images/71.png)
+    ![Risk Classification](./images/74.png)
 
 9. on the review pane click on **Next**.
 
