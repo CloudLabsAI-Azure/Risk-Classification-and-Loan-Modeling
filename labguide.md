@@ -314,3 +314,48 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 11. Go to the pipelines and make sure that pipeline run got succeeded.
 
      ![Risk Classification](./images/75.png)
+
+12. In the Ingest_test_file pipeline click on **New\Edit**.
+
+     ![Risk Classification](./images/76.png)
+
+13. In the Add triggers page click on choose trigger and click on **+New**.
+
+     ![Risk Classification](./images/77.png)
+
+14. Select **Name** : **sbaautojob(1)** , **type** : **Storage events(2)**, **Azure Subscription** : Select the available subscription(3), **Storage account name** : **sbadataDID(4)**, **conatiner name** : **testinput(5)**, check the check box for the **blob created**(6) and click on **continue(7)**.
+
+     ![Risk Classification](./images/78.png)
+
+15. On the datapreview page click on **continue** and click **Ok**.
+
+     ![Risk Classification](./images/79.png)
+
+16. click on publish all and click on **Publish** and wait till publish is completed.
+
+     ![Risk Classification](./images/80.png)
+
+17. Go to **sbadataDID** storage account and select **testinput** container.
+
+     ![Risk Classification](./images/81.png)
+
+18. Click on **upload(1)** and click on **Browse for files(2)**.
+
+     ![Risk Classification](./images/82.png)
+
+19. Select the file in **windows(c:)**, **LabFiles(2)**, Select the **test2.csv(3)** file and click on **open(4)**.
+
+     ![Risk Classification](./images/83.png)
+
+20. click on **upload**.
+
+     ![Risk Classification](./images/84.png)
+
+21. 17. Go to **sbadataDID** storage account and select **testoutput** container.
+
+     ![Risk Classification](./images/85.png)
+
+22. Verify that **test2.csv** file is automatically copied to the **testoutput** container.
+
+     ![Risk Classification](./images/86.png)
+
