@@ -25,22 +25,8 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
 1. Let us start by logging into the Azure Portal to check the resources deployed for the lab environment. In the virtual machine (VM) on the left, click on the Azure portal desktop icon as shown below.
 
-   ![](../main/01-Images/vm2.png)
+   ![Risk Classification](./images/61.png)
    
-1. When you click on Azure portal, the edge browser welcome screen will come up, select **Start without your data**.
-
-   ![](../main/01-Images/vm3.png)
-   
-1. On the next window, click on **Continue without this data**.
-
-   ![](../main/01-Images/vm4.png)
-   
-1. Click on **Confirm and start browsing**.
-
-   ![](../main/01-Images/vm5.png)
-   
-1. Now, you will see two tabs in the edge browser, close the first tab named **Microsoft Edge**.
-
 1. On the **Sign in to Microsoft Azure** window, you will see the login screen, enter the following username and click on **Next**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
@@ -63,11 +49,11 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
 1. Now you can see Azure Portal Dashboard, click on **Resource groups** from the Navigate panel.
   
-   ![veeam282](./images/veeam282.png)
+   ![Risk Classification](./images/62.png)
 
 1. Verify the pre-deployed resource group.
 
-    ![](../main/01-Images/vm6.png)
+    ![Risk Classification](./images/63.png)
     
 1. Now, click on **Next** from the lower right corner to move to the next page.
 
