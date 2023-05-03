@@ -310,3 +310,7 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 10. Once all the validations are succeeded then click on **Finish**.
 
      ![Risk Classification](./images/73.png)
+
+11. Go to the pipelines and make sure that pipeline run got succeeded.
+
+     ![Risk Classification](./images/75.png)
