@@ -412,4 +412,110 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
     ![Risk Classification](./images/98.png)
 
+### Task 3 : Create and deploy the batch processing data model
+
+1. In the Machine learning studio go the **jobs(1)** and select the latest job for **SBA_Loan_Risk_Prediction(2)**.
     
+    ![Risk Classification](./images/99.png)
+
+2. Click on **Clone**.
+
+    ![Risk Classification](./images/100.png)
+
+3. Right Click on the **SBADATA(1)** and click on **Delete(2)**.
+
+    ![Risk Classification](./images/101.png)
+
+4. Select the **Data**(1), Drag and drop the **loantest(2)(3)**, connect **loantest(4)** output with the input of **select columns in dataset(5)**.
+
+    ![Risk Classification](./images/102.png)
+
+5. Right click on the **Evaluate Model(1)** and click on **Delete(2)**.
+
+    ![Risk Classification](./images/103.png)
+
+6. In the **component(1)**, search for **Export Data(2)** and drag and drop the **Export Data(3)(4)**.
+
+    ![Risk Classification](./images/104.png)
+
+7. Select the **Score model**(1) output to the **export data**(2) input.
+
+    ![Risk Classification](./images/105.png)
+
+8. Select **Datastore type** : **Azure Blob Storage(1)**, **Datastore** : **loantest(2)** , **Path** : **./loanrisk.csv(3)**, **File format** : **csv(4)** and enable the **checkpoint regenrate output(5)**.
+
+    ![Risk Classification](./images/106.png)
+
+9. Click on **Submit**.
+
+    ![Risk Classification](./images/107.png)
+
+10. Select **Create new(1)**, **New experiment name** : **sbaloanrisk_batch(2)** and click on **Submit(3)**.
+
+    ![Risk Classification](./images/108.png)
+
+11. Makesure that Pipline run has completed.
+
+     ![Risk Classification](./images/109.png)
+
+12. Goto the **sbadataDID** storage account and select the **testoutput** conatiner.
+
+     ![Risk Classification](./images/110.png)
+
+13. Review the **loanrisk.csv** file in the **testoutput** .
+
+     ![Risk Classification](./images/111.png)
+
+14. In the Machine learning studio go the **jobs(1)** and select the latest job for **SBA_Loan_Approve_Amount_prediction(2)**.
+
+     ![Risk Classification](./images/112.png)
+
+15. Click on **Clone**.
+
+    ![Risk Classification](./images/113.png)
+
+16. Right Click on the **SBADATA(1)** and click on **Delete(2)**.
+
+    ![Risk Classification](./images/101.png)
+
+17. Select the **Data**(1), Drag and drop the **loantest(2)(3)**, connect **loantest(4)** output with the input of **select columns in dataset(5)**.
+
+    ![Risk Classification](./images/102.png)
+
+18. Right click on the **Evaluate Model(1)** and click on **Delete(2)**.
+
+    ![Risk Classification](./images/103.png)
+
+19. In the **component(1)**, search for **Export Data(2)** and drag and drop the **Export Data(3)(4)**.
+
+    ![Risk Classification](./images/104.png)
+
+20. Select the **Score model**(1) output to the **export data**(2) input.
+
+    ![Risk Classification](./images/105.png)
+
+21. Select **Datastore type** : **Azure Blob Storage(1)**, **Datastore** : **loantest(2)** , **Path** : **/loanammount.csv(3)**, **File format** : **csv(4)** and enable the **checkpoint regenrate output(5)**.
+
+     ![Risk Classification](./images/115.png)
+
+22. Click on **Submit**.
+
+    ![Risk Classification](./images/107.png)
+
+23. Select **Create new(1)**, **New experiment name** : **sbaloan_amount_predict(2)** and click on **Submit(3)**.
+
+    ![Risk Classification](./images/116.png)
+
+24. Makesure that Pipline run has completed.
+
+     ![Risk Classification](./images/109.png)
+
+25. Goto the **sbadataDID** storage account and select the **testoutput** conatiner.
+
+     ![Risk Classification](./images/110.png)
+
+26. Review the **loanammount.csv** file in the **testoutput** .
+
+     ![Risk Classification](./images/117.png)
+
+     
