@@ -380,7 +380,7 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
     ![Risk Classification](./images/90.png)
 
-Note: for the account key move to the Go to the **sbadataDID(1)** storage account, select the **Access keys(2)** and copy the **key(3)**.
+      >Note: for the account key move to the Go to the **sbadataDID(1)** storage account, select the **Access keys(2)** and copy the **key(3)**.
 
     ![Risk Classification](./images/91.png)
 
