@@ -271,6 +271,8 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
 ## Exercise 3 : Deploy the Batch Processing ML Model
 
+### Task 1 : Build data pipeline to ingest test file
+
 1. Go to the **LoanmodelDID** synapse workspace in the Azure Portal and click on **open**.
 
     ![Risk Classification](./images/64.png)
@@ -359,3 +361,55 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
      ![Risk Classification](./images/86.png)
 
+
+### Task 2 : Create Data Store and Dataset for test data
+
+1. In the Azure portal search for the machine learning workspace and select the **loanmodelDID** workspace.
+
+    ![Risk Classification](./images/87.png)
+
+2. Click on **Launch studio**.
+
+    ![Risk Classification](./images/88.png)
+
+3. Click on **Data(1)**, select the **Datastores(2)** and click on **+create(3)**.
+
+    ![Risk Classification](./images/89.png)
+
+4. Type **Datastore name : loantest(1)**, **DataStore type : Azure Blob Storage(2)**, **Subscription ID : Select the available subscription(3)**, **Storage account : sbadataDID(4)**, **Blob Conatiner : testoutput(5)**, **Account key : Copy the account key from the storage account(6)** and click on **create(7)**.
+
+    ![Risk Classification](./images/90.png)
+
+Note: for the account key move to the Go to the **sbadataDID(1)** storage account, select the **Access keys(2)** and copy the **key(3)**.
+
+    ![Risk Classification](./images/91.png)
+
+5. Under **Datastores(1)** select the **loantest(2)**.
+
+    ![Risk Classification](./images/92.png)
+
+6. Click on **Create data asset**.
+
+    ![Risk Classification](./images/93.png)
+
+7. Type **Name: loantest(1)** and click on **Next(2)**.
+
+    ![Risk Classification](./images/94.png)
+
+8. Check the check box for **Enter the storage path manually(1)**, **Storage path** : ****(2)** and click on **Next(3)**.
+
+    ![Risk Classification](./images/95.png)
+
+9. Under Setting page click on **Next**.
+
+    ![Risk Classification](./images/96.png)
+
+10. Under Schema page click on **Next**.
+
+    ![Risk Classification](./images/97.png)
+
+11. Under review page click on **create**.
+
+    ![Risk Classification](./images/98.png)
+
+    
