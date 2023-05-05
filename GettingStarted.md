@@ -14,11 +14,11 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
 1. To get the lab environment details, you can select the **Environment Details** tab. Additionally, the credentials will also be emailed to your email address provided at registration.
 
-    ![](../main/01-Images/vm1.png)
+    ![Risk Classification](./images/144.png)
     
 1. You can also open the Lab Guide in a separate full window by selecting the **Split Window** icon at the bottom right corner.
 
-    ![veeam278](./images/veeam278.png)
+    ![Risk Classification](./images/145.png)
     
     
 ## Task 1: Log in to Azure Portal and verify the pre-deployed resources
