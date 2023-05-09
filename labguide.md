@@ -125,11 +125,11 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
      ![Risk Classification](./images/27.png)
 
-13. Connect **select Columns in Dataset(1)** output to input of **Clean Missing Data(2)**.
+13. Connect **Select Columns in Dataset(1)** output to input of **Clean Missing Data(2)**.
 
      ![Risk Classification](./images/28.png)
 
-14. Double click on the **Clean Missing Data** icon then under select columns click on **edit columns**.
+14. Double click on the **Clean Missing Data** icon then under select columns click on **Edit Column**.
 
      ![Risk Classification](./images/29.png)
 
@@ -145,7 +145,7 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
      ![Risk Classification](./images/32.png)
 
-18. Under the **Component** section search **Split Data** and Drag and Drop at the workspace region.
+18. Under the **Component(1)** section search **Split Data(2)** and Drag and Drop at the workspace region  **(3)(4)**.
 
      ![Risk Classification](./images/33.png)
 
@@ -169,7 +169,7 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
      ![Risk Classification](./images/38.png)
 
-24. Double click on the **Train Model** icon then under Label columns click on **edit column**
+24. Double click on the **Train Model** icon then under Label columns click on **Edit column**
 
      ![Risk Classification](./images/39.png)
 
@@ -518,69 +518,3 @@ The Small Business Administration (SBA) was founded in 1953 to assist small busi
 
      ![Risk Classification](./images/117.png)
 
-
-## Exercise 4 : Deploy Real Time ML model
-
-1. Search for the **Azure Machine Learning(1)** and select the **Azure Machine learning(2)**.
-
-     ![Risk Classification](./images/127.png)
-
-2. Select the **loanmodelDID** workspace and click on **Launch Studio**.
-
-     ![Risk Classification](./images/128.png)
-
-3. Select the **Jobs(1)** and click on latest job for the SBA_Loan_Risk_Prediction(2).
-
-     ![Risk Classification](./images/129.png)
-
-4. Click on the **clone**.
-
-     ![Risk Classification](./images/130.png)
-
-5. Click on the **component(1)**, in the search bar type for **web service input(2)**, drag and drop the web service input to the workspace(3)(4) and connect output of the **web service input(5)** to the input of the **select coloumns in Dataset(6)**.
-
-     ![Risk Classification](./images/131.png)
-
-6. Right Click on the **Multiclass Logistic Regression(1)** and click on **Delete(2)**.
-
-     ![Risk Classification](./images/139.png)
-
-7. Right Click on the **Train Model(1)** and click on **Delete(2)**.
-
-     ![Risk Classification](./images/140.png)
-
-8. Right Click on the **Split Data(1)** and click on **Delete(2)**.
-
-     ![Risk Classification](./images/141.png)
-
-9. Right Click on the **Clean Missing Data(1)** and click on **Delete(2)**.
-
-     ![Risk Classification](./images/142.png)
-
-6. Right Click on the **Export Data(1)** and click on **Delete(2)**.
-
-     ![Risk Classification](./images/132.png)
-
-7. Click on the **component(1)**, in the search bar type for **web service output(2)**, drag and drop the web service input to the workspace(3)(4) and connect output of the **scoremodel(5)** to the input of the **web service output(6)**.
-
-     ![Risk Classification](./images/133.png)
-
-8. Click on **Submit**.
-
-    ![Risk Classification](./images/134.png)
-
-9. Select the **create new(1)** option, for New **Experiment name : SBALoanRisk_realtime(2)** and click on **Submit(3)**
-
-    ![Risk Classification](./images/135.png)
-
-10. Wait untill the pipeline is completed.
-
-     ![Risk Classification](./images/136.png)
-
-11. Once the pipe is execute properly then click on the **Deploy** icon.
-
-     ![Risk Classification](./images/137.png)
-
-12. Click on **Deploy new real time endpoint(1)**, type **name: sbaloan risk(2)**, Select **Compute type : Azure Container Instance(3)** and click on **Deploy(4)**.
-
-     ![Risk Classification](./images/138.png)
